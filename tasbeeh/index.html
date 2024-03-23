@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    body{
+        background-image: url(./images/ramadan_card_vector.jpg);
+        background-size: cover;
+        
+    }
+    .main{
+        margin-left: 44%;
+        margin-top: 13%;
+        
+    }
+    .heading{
+        display: flex;
+        justify-content: center;
+        margin-top: 8%;
+        color: goldenrod;
+        
+    }
+    button{
+        background-color: rgb(9, 65, 9);
+        color: gold;
+        width: 70px;
+    }
+    span{
+        color: goldenrod;
+    }
+
+    
+</style>
+<body>
+    <div class="heading">
+        <h1>E-Tasbeeh</h1>
+    </div>
+    <div class="main">
+
+        <button onclick="Inc()">+</button>
+        <span id="span">0</span>
+        <button onclick="Dec()">-</button>
+        <button id="reset" onclick="Reset()"><i class="fa fa-refresh" aria-hidden="true"></i></button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
